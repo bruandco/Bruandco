@@ -30,6 +30,9 @@
 #bloc_ariane{
     margin:5px 0;
     padding:5px;
+
+}
+#bloc_ariane div{
     font-family:Bgoth;
     font-size:12px;
 }

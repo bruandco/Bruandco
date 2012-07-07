@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /bruandco/home/
+
+RewriteRule ^inconnu\.html$  index.php [L]
+RewriteRule ^home/inconnu\.html$  index.php [L]
+
+ErrorDocument 404 /Bruandco/home/index.php

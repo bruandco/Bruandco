@@ -13,3 +13,46 @@
 .fright{
     float:right;
 }
+
+.alert_message{
+    position:relative;
+    width:70%;    
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    font-weight:bold;
+    padding:5px;
+    margin-bottom:10px;
+}
+
+.alert_message_button{
+    position:absolute;
+    float:right;
+    right:5px;
+    cursor:pointer;    
+}
+
+.erreur{
+	border:1px solid red;
+	background-color:#F49A9A;
+	color:#000;
+}
+
+.valide{
+	border:1px solid green;
+	background-color:#8DEE86;
+	color:#000;
+}
+
+.erreur img,.valide img{
+	width:25px;
+	float:left;
+}
+
+.alert_message_obligatoire{
+    border:1px solid orange!important;
+}
+
+.erreur span,.valide span{
+	float:left;
+	margin:2px 0 0 5px;
+}
