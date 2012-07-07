@@ -1,0 +1,41 @@
+/* Tpl menu_haut.tpl */
+#bloc_recherche{
+    padding:5px;
+    height:30px;
+}
+#bloc_recherche #keywords{
+    border: 1px solid black;
+}
+
+/* Bloc banniere*/
+#bloc_banniere{
+    position:relative;
+    width:100%;
+    height:250px;
+    border:1px solid black;
+}
+.banniere{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image:url('../image/logo.png');
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+#bloc_menu_haut{
+    height:40px;
+}
+
+#bloc_ariane{
+    margin:5px 0;
+    padding:5px;
+    font-family:Bgoth;
+    font-size:12px;
+}
+
+/* Bas de page */
+#bloc_bas_page{
+    font-family:Bgoth;
+    font-size:12px;
+}

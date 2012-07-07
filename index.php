@@ -9,28 +9,6 @@
     </head>
     <body>
         <div class="logo" id="logo"></div>
-        <div class="lien_installation">
-            <a href="#">Commencer</a>
-        </div>
-        
-        
-        <div id="etape_installation">
-            <ul>
-                <li>
-                    <span>1</span>
-                    <span>Informations du site</span>
-                </li>
-                <li>
-                    <span>2</span>
-                    <span>Base de données</span>
-                </li>
-                <li>
-                    <span>3</span>
-                    <span>Utilisateurs</span>
-                </li>
-            </ul>
-            <div class="clear"></div>
-        </div>
     </body>
 </html>
 

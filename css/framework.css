@@ -1,0 +1,15 @@
+.clear{
+    clear:both;
+}     
+.clearR{
+    clear:right;
+}
+.clearL{
+    clear:left;
+}
+.fleft{
+    float:left;
+}
+.fright{
+    float:right;
+}

@@ -1,0 +1,49 @@
+html,body{margin:0;padding:0;}
+
+#main_haut{
+    width: 970px;
+    margin:auto;
+
+}
+
+#main_banniere{
+    width: 970px;
+    margin:auto;        
+}
+
+#main_bloc{
+    width: 970px;
+    height:100%;
+    margin:auto;
+}
+    #mb_gauche{
+         float:left;
+         width:200px;
+    }
+    #mb_centre{
+         float:left;
+         width:770px;
+    }
+        #mbc_haut{
+            height:200px;
+            display:none;  
+        }
+        #mbc_centre{
+            height:auto;
+        }
+        #mbc_bas{
+            height:200px;
+            display:none;
+        }
+    #mb_droite{
+        float:left;
+        width:200px;
+        display:none;
+    }
+    
+#main_bas{
+    width: 970px;
+    height:20px;
+    margin:auto;
+    margin-top:20px;
+}

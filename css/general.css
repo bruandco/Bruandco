@@ -2,10 +2,12 @@
     font-family: "Bgoth";
     src: url('../font/bgothm.ttf');
 }
-.clear{
-    clear:both;
-}              
 
+*{
+    font-size:11px;
+    font-family:tahoma;
+}
+         
 #logo{
     width: 970px;
     height: 135px;
@@ -14,46 +16,70 @@
     margin-top: 150px;
 }
 
-/* Debut */
-.lien_installation{
-    width: 970px;
-    margin: auto;
-    margin-top: 100px;
-    text-align: center;
-    font-family: Bgoth;
-    font-size: 20px;
-    color: #34302d;
-}
-.lien_installation a:link,.lien_installation a:visited,.lien_installation a:active{
-    color: #34302d;
-    text-decoration: none;
-}
-.lien_installation a:hover{
-    color: #34302d;
-    text-decoration: underline;
-}
 
-
-/* Etapes installation */
-#etape_installation{
-    display: block;
-    width:970px;
-    margin: auto;
-    margin-top: 50px;
+.menu_gauche{
+    margin: 5px;
+    padding: 0; 
+    width:160px;
 }
-
-#etape_installation ul{
-    margin: 0 auto;
-    padding: 0;
-    width:780px;
-}
-#etape_installation ul li{
+.menu_gauche li{
     margin: 0px;
     padding: 0px;
-    float:left;
-    width: 250px;
     margin: 0 5px;
-    text-align:center;
-    font-family: Bgoth;
+    width:inherit;
+    border-right:1px solid black;
     list-style-type: none;
+    font-family: Bgoth;
+    font-size:15px !important;
+    
+}
+.menu_gauche li:hover{
+    background-color: red;
+    color:white;
+}
+
+.menu_gauche li a:link, .menu_gauche li a:visited, .menu_gauche li a:active{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Bgoth;
+    font-size:15px !important; 
+}
+
+.menu_haut{
+    margin: 0;
+    padding: 0; 
+    width:100%;
+    height:30px;   
+    border-bottom:5px solid #890404;
+    background-color:red;
+}
+.menu_haut li{
+    float:left;
+    margin: 0;
+    padding: 5px;  
+    width:150px; 
+    height:20px;     
+    background-color:red;
+    font-family: Bgoth;
+    font-size:15px !important;
+    list-style-type: none;
+}
+.menu_haut li:hover{
+    background-color:#890404;
+    color:white;
+}
+
+.titre_page{
+    font-size:10px;
+    font-family: Bgoth;
+    font-size:16px !important;     
+}
+
+h1,h2,h3,h4{
+    font-family:inherit;
+    font-style:inherit;
+    font-size:inherit;
+    margin:0;
+    padding:0;
 }
